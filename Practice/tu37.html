@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions</title>
+</head>
+    <style>
+        body{
+            background-color: black;
+        }
+        #box{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-property: background-color;
+            transition-duration: 3s;
+            transition-delay: 0.4s;
+            transition-timing-function: ease-in-out;
+            transition-property: all;
+      
+        }
+        #box:hover{
+            background-color: rgb(3, 227, 48);
+            height: 400px;
+            width: 600px;
+            border-radius: 40px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+    </style>
+<body>
+    <h3>This is Darshit Kakadiya</h3>
+    <div class="container">
+        <div id="box">
+            This is my box
+
+        </div>
+    </div>
+    
+</body>
+</html>

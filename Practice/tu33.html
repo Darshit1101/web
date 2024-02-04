@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>before and after pseudo selector</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+    header::before {
+      content: "";
+      background: url("https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+        no-repeat center center/cover;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      opacity: 0.5;
+    }
+    .navigation {
+      display: flex;
+      font-size: 20px;
+    }
+    li {
+      list-style: none;
+      padding: 34px 20px;
+    }
+
+    section {
+      font-weight: bold;
+      height: 350px;
+      justify-content: center;
+      margin: 3px 23px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border: 3px solid burlywood;
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="navigation">
+          <li class="item">Home</li>
+          <li class="item">About</li>
+          <li class="item">Services</li>
+          <li class="item">Contact us</li>
+        </ul>
+      </nav>
+      <section>
+        <h3>welcome to the coding world</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          provident eveniet sit sint qui ut deleniti ipsam, omnis illo tempora
+          incidunt veritatis culpa aliquid quidem cupiditate id voluptatem
+          expedita, architecto, nihil est magni placeat!
+        </p>
+      </section>
+   
+    </header>
+  </body>
+</html>

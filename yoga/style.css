@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* @media (min-width: 376px) and (max-width: 550px) {
+  .header{
+    display: none;
+  }
+  .nature{
+    margin: 0px;
+  }
+  
+} */
+
+.logo {
+  margin-left: 60px;
+  margin-right: 120px;
+  /* color: white; */
+}
+.nav{
+  color: var(--grayscale-900, #2E3032);
+text-align: center;
+
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.165px;
+}
+.nature {
+  margin: 300px 40px 0px;
+}
+@media (max-width: 1093px) {
+  .nature {
+    margin-top: 10px;
+  }
+}
+.h1 {
+  color: blueviolet;
+}
+.para {
+  font-size: 20px;
+  color: blueviolet;
+}
+/* .profile {
+  position: relative;
+  z-index: -111;
+  width: 50%;
+} */
+
+.pro {
+ 
+  height: 799px;
+  width: 746px;
+}
+
+.circle {
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  width: 551px;
+  height: 540px;
+  margin-top: 112px;
+  margin-left: -650px;
+  border-radius: 450px;
+}
+@media (max-width: 795px) {
+  .pro {
+    height: 499px;
+    width: 300px;
+  }
+  .circle {
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    width: 231px;
+    height: 220px;
+    margin-top: 112px;
+    margin-left: -250px;
+    border-radius: 450px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+  }
+}
+.car {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-between ; */
+  align-items: center;
+  /* background-color: red; */
+}
+.up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.skills{
+  width: "426px"
+ 
+}
+.Frame {
+  margin-left: 130px;
+  height: 155px;
+  width: 80%;
+
+  /* background-color: red; */
+}
+.improve{
+  color: blueviolet;
+  margin-top: 123px;
+  width: 100%;
+  /* width: 526px; */
+}
+.maouni {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+ 
+@media (max-width: 375px) {
+  .improve{
+    margin-top: 123px;
+    width: 226px;
+  }
+  .pro {
+    height: 299px;
+    width: 100px;
+  }
+  .Frame {
+    margin-left: 10px;
+    height: 75px;
+    width: 100%;
+    display: none;
+    /* background-color: rgb(136, 0, 255); */
+  }
+  .maouni {
+   
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+  }
+}
+@media (max-width: 768px) {
+  .Frame {
+    margin-left: 10px;
+    height: 100px;
+    width: 100%;
+    display: none;
+    /* background-color: rgb(136, 0, 255); */
+  }
+  .maouni {
+    text-align: center;
+    margin-top: 10px;
+    font-size: medium;
+  }
+}
+@media (max-width: 1024px) {
+  .Frame {
+    margin-left: 10px;
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(136, 0, 255); */
+  }
+  .maouni {
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+    /* color: blueviolet; */
+  }
+}
+/* .ab1{
+  width: 450px;
+  height: 472px;
+  display: flex;
+  align-items: center;
+} */
+.about {
+
+  margin-left: 50px;
+  width: 450px;
+  height: 472px;
+}
+
+@media (max-width: 1000px) {
+  .about {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    width: 250px;
+    height: 272px;
+  }
+}
+.footer {
+  height: 461px;
+  width: 100%;
+  background-color: blueviolet;
+}
+.news {
+  width: 40%;
+  margin: 60px 60px;
+}
+
+.letter {
+  color: white;
+  margin-bottom: 40px;
+}
+.email {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
